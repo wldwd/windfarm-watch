@@ -1,1 +1,148 @@
-{}
+{
+  "epa-hub": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "3413a1bcbe083ff3",
+      "97285e667dbf2f73"
+    ]
+  },
+  "dap-list": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "49a15885901f752f"
+    ]
+  },
+  "wapc-sigdev": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "150f73500eafd8b9",
+      "669d20aea2d630c4",
+      "7dbc0a2518981a29",
+      "93db8dbb1361b68b",
+      "ac9d4ef6efc95291"
+    ]
+  },
+  "wapc-spc": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": []
+  },
+  "shire-renewables": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "00a6f1501f7a2353",
+      "078b72b16a7f5314",
+      "0f78032daeb33614",
+      "1671cd636688b5d7",
+      "180a3dab908d6144",
+      "18d25b3e2e2bb6ba",
+      "190b5a0b5b037fe3",
+      "214764ea9b927265",
+      "24a84454199a4348",
+      "2a0afd511207b88a",
+      "30a551fcaca2a7ed",
+      "313fa78fcdfd9930",
+      "49fbd4dc88d04332",
+      "4ad14ac01c83b359",
+      "4cd80ca2459fd26e",
+      "5570dbbbf4639a25",
+      "5577e39cc5434a6e",
+      "5d3f514b6cfb15d5",
+      "62aba6520fafd8df",
+      "6796f9868a134fd7",
+      "6cd4f9bc6472c595",
+      "7403e020699b7bc0",
+      "76ddfad0ccda6efb",
+      "77426e22cb2ab02f",
+      "78819a87498ef5a2",
+      "7e57108c645ebb68",
+      "8131b3cb366ba7d2",
+      "82877662eb0d0299",
+      "88edb573adba9f07",
+      "8ef514202fca3f95",
+      "9472d1909c96a731",
+      "9ee652f101e4ca4f",
+      "a6507c0b3c9d0132",
+      "b83cfc8571ac946a",
+      "c0d3447787077ad1",
+      "d7a3104b1d8bab03",
+      "d9e1276c424e057a",
+      "daea6fb35f1c70a5",
+      "e647151cb85ff785",
+      "ec6e05e8e129f19b",
+      "eebafe45f1eb8a67",
+      "f27101e6e895849e",
+      "f385e2ea9eb8ab8f",
+      "f39a78bffebc8c4d",
+      "f5739501bec0c1aa",
+      "f679a6afb20db73e",
+      "fd1b169b069ad492",
+      "ff57d31eb98497d3"
+    ]
+  },
+  "shire-windfarms": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "007cbb3872395f36",
+      "28f921ba0752e54d",
+      "398bd69680b6379b",
+      "3c7d0faafcd715c9",
+      "40bd8e14ca145dd0",
+      "50371966615a5f82",
+      "6321f953fe642b19",
+      "64912210c716f0a9",
+      "6a491d0b5b9d8b81",
+      "71d9a49e81a1972d",
+      "7773866e3d2f0e1d",
+      "7ee8f1a83b3a1184",
+      "90d2279be018ecc2",
+      "9a154b5d850f51a7",
+      "a637577bc68edcd3",
+      "d788acb97780942b",
+      "da614b3240c1e2d7",
+      "de54eb6215ef941b",
+      "e386a9b1202b41f8",
+      "f2962661d9f5bd05"
+    ]
+  },
+  "epbc-portal": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": []
+  },
+  "ambrosia-site": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "35b6cf075d1373ba",
+      "4e5e4c8eed50b5ba",
+      "5af03b4deeee3c9d",
+      "a77bdd96dcc41c14",
+      "cd557be969c2ba45",
+      "e7ee6c83c1b2516f",
+      "f6e8fd6f72fe11f3"
+    ]
+  },
+  "news-ambrosia": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "094aafd55155ae5c",
+      "4141d6714a99d01a",
+      "49d28605585b914b",
+      "4d1a2cb646ee1c56",
+      "de3c9db78b310c5a"
+    ]
+  },
+  "news-west-arthur": {
+    "baseline": "2026-11-05T15:48:04+08:00",
+    "keys": [
+      "05f506e70de204da",
+      "1898b3a757326a08",
+      "1fafafa438c43080",
+      "2696a37b39135a4b",
+      "7603b2e80186ca75",
+      "9d87458fad679227",
+      "afe0a51379289b73",
+      "ca4a593262ae2f23",
+      "f92a9e43e1d63271",
+      "fe949ecbd5842d88"
+    ]
+  }
+}

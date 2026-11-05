@@ -1,7 +1,7 @@
 {
   "_about": "Hand-edited project status and comment windows. The checker only updates last_checked and sources. Dates are YYYY-MM-DD.",
   "status_as_at": "2026-11-05",
-  "last_checked": null,
+  "last_checked": "2026-11-05T15:48:04+08:00",
   "windows": [
     {
       "project": "West Arthur Wind Farm",
@@ -27,28 +27,177 @@
       "name": "Ambrosia Wind Farm",
       "who": "Green Wind Renewables / Aula Energy · about 600 MW, up to 100 turbines",
       "rows": [
-        {"label": "EPA", "pill": "No referral found", "tone": "unknown", "text": ""},
-        {"label": "Planning", "pill": "Not lodged yet?", "tone": "unknown", "text": "The developer said it would lodge in late September 2026. It is not on the DAP list of 2 November. If lodged on or after 5 October it goes to the WAPC, and nearby owners get a letter."},
-        {"label": "Federal", "pill": "No referral found", "tone": "unknown", "text": ""}
+        {
+          "label": "EPA",
+          "pill": "No referral found",
+          "tone": "unknown",
+          "text": ""
+        },
+        {
+          "label": "Planning",
+          "pill": "Not lodged yet?",
+          "tone": "unknown",
+          "text": "The developer said it would lodge in late September 2026. It is not on the DAP list of 2 November. If lodged on or after 5 October it goes to the WAPC, and nearby owners get a letter."
+        },
+        {
+          "label": "Federal",
+          "pill": "No referral found",
+          "tone": "unknown",
+          "text": ""
+        }
       ]
     },
     {
       "name": "West Arthur Wind Farm",
       "who": "Lacour Energy · up to 92 turbines, tip height up to 253 m, plus battery",
       "rows": [
-        {"label": "EPA", "pill": "7-day comment closed 1 Nov", "tone": "done", "text": "EPA now decides whether to assess."},
-        {"label": "Planning", "pill": "DA lodged 18 Sep", "tone": "next", "text": "Regional DAP, DAP/26/03197, $2,000m. Advertising dates not yet listed."},
-        {"label": "Federal", "pill": "Not referred", "tone": "unknown", "text": "As at mid-October."}
+        {
+          "label": "EPA",
+          "pill": "7-day comment closed 1 Nov",
+          "tone": "done",
+          "text": "EPA now decides whether to assess."
+        },
+        {
+          "label": "Planning",
+          "pill": "DA lodged 18 Sep",
+          "tone": "next",
+          "text": "Regional DAP, DAP/26/03197, $2,000m. Advertising dates not yet listed."
+        },
+        {
+          "label": "Federal",
+          "pill": "Not referred",
+          "tone": "unknown",
+          "text": "As at mid-October."
+        }
       ]
     },
     {
       "name": "Bellwether",
       "who": "ACCIONA Energía · about 3 GW, around 400 turbines",
       "rows": [
-        {"label": "Status", "pill": "Planning phase", "tone": "next", "text": "Construction proposed from 2028."},
-        {"label": "Approvals", "pill": "None found", "tone": "unknown", "text": ""}
+        {
+          "label": "Status",
+          "pill": "Planning phase",
+          "tone": "next",
+          "text": "Construction proposed from 2028."
+        },
+        {
+          "label": "Approvals",
+          "pill": "None found",
+          "tone": "unknown",
+          "text": ""
+        }
       ]
     }
   ],
-  "sources": []
+  "sources": [
+    {
+      "id": "epa-hub",
+      "name": "EPA Consultation Hub",
+      "url": "https://consultation.epa.wa.gov.au/",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 2,
+      "note": "baseline recorded (2 lines)"
+    },
+    {
+      "id": "epa-notices",
+      "name": "EPA public notices",
+      "url": "https://www.epa.wa.gov.au/public-notices",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "dap-list",
+      "name": "DAP current applications (PDF)",
+      "url": "https://www.planning.wa.gov.au/docs/default-source/daps-docs-website/current-applications.pdf",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 1,
+      "note": "baseline recorded (1 lines)"
+    },
+    {
+      "id": "wapc-sigdev",
+      "name": "WAPC significant development applications",
+      "url": "https://www.planning.wa.gov.au/significant-development-pathway/significant-development-applications",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 5,
+      "note": "baseline recorded (5 lines)"
+    },
+    {
+      "id": "wapc-spc",
+      "name": "WAPC Statutory Planning Committee agendas",
+      "url": "https://www.planning.wa.gov.au/wapc/wapc-and-statutory-committees-agendas-and-minutes/spc-agendas-and-minutes",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 0,
+      "note": "baseline recorded (0 lines)"
+    },
+    {
+      "id": "shire-renewables",
+      "name": "Shire of West Arthur: Renewable energy",
+      "url": "https://www.westarthur.wa.gov.au/your-community/environment/renewable-energy-in-the-shire-of-west-arthur.aspx",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 49,
+      "note": "baseline recorded (48 lines)"
+    },
+    {
+      "id": "shire-windfarms",
+      "name": "Shire of West Arthur: Windfarms",
+      "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 20,
+      "note": "baseline recorded (20 lines)"
+    },
+    {
+      "id": "epbc-portal",
+      "name": "EPBC Act public portal (referrals)",
+      "url": "https://epbcpublicportal.environment.gov.au/all-referrals",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 0,
+      "note": "baseline recorded (0 lines)"
+    },
+    {
+      "id": "ambrosia-site",
+      "name": "Ambrosia Wind Farm website",
+      "url": "https://ambrosiawindfarm.com.au/",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 14,
+      "note": "baseline recorded (7 lines)"
+    },
+    {
+      "id": "news-ambrosia",
+      "name": "News: Ambrosia Wind Farm",
+      "url": "https://news.google.com/rss/search?q=%22Ambrosia%20wind%20farm%22&hl=en-AU&gl=AU&ceid=AU:en",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 5,
+      "note": "baseline recorded (5 lines)"
+    },
+    {
+      "id": "news-west-arthur",
+      "name": "News: West Arthur wind farms",
+      "url": "https://news.google.com/rss/search?q=%22West%20Arthur%22%20wind%20farm&hl=en-AU&gl=AU&ceid=AU:en",
+      "checked": "2026-11-05T15:48:04+08:00",
+      "ok": true,
+      "error": "",
+      "matches": 10,
+      "note": "baseline recorded (10 lines)"
+    }
+  ]
 }
