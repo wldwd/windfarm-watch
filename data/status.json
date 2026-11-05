@@ -1,7 +1,7 @@
 {
   "_about": "Hand-edited project status and comment windows. The checker only updates last_checked and sources. Dates are YYYY-MM-DD.",
   "status_as_at": "2026-11-05",
-  "last_checked": "2026-11-05T17:54:18+08:00",
+  "last_checked": "2026-11-05T17:55:59+08:00",
   "windows": [
     {
       "project": "West Arthur Wind Farm",
@@ -95,7 +95,7 @@
       "id": "epa-hub",
       "name": "EPA Consultation Hub",
       "url": "https://consultation.epa.wa.gov.au/",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 2
@@ -104,7 +104,7 @@
       "id": "epa-notices",
       "name": "EPA public notices",
       "url": "https://www.epa.wa.gov.au/public-notices",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": false,
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
@@ -112,7 +112,7 @@
       "id": "dap-list",
       "name": "DAP current applications (PDF)",
       "url": "https://www.planning.wa.gov.au/docs/default-source/daps-docs-website/current-applications.pdf",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 1
@@ -121,7 +121,7 @@
       "id": "wapc-sigdev",
       "name": "WAPC significant development applications",
       "url": "https://www.planning.wa.gov.au/significant-development-pathway/significant-development-applications",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 5
@@ -130,7 +130,7 @@
       "id": "wapc-spc",
       "name": "WAPC Statutory Planning Committee agendas",
       "url": "https://www.planning.wa.gov.au/wapc/wapc-and-statutory-committees-agendas-and-minutes/spc-agendas-and-minutes",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 0
@@ -139,7 +139,7 @@
       "id": "shire-renewables",
       "name": "Shire of West Arthur: Renewable energy",
       "url": "https://www.westarthur.wa.gov.au/your-community/environment/renewable-energy-in-the-shire-of-west-arthur.aspx",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 49
@@ -148,7 +148,7 @@
       "id": "shire-windfarms",
       "name": "Shire of West Arthur: Windfarms",
       "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 20
@@ -157,7 +157,7 @@
       "id": "epbc-portal",
       "name": "EPBC Act public portal (referrals)",
       "url": "https://epbcpublicportal.environment.gov.au/all-referrals",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 0
@@ -166,7 +166,7 @@
       "id": "ambrosia-site",
       "name": "Ambrosia Wind Farm website",
       "url": "https://ambrosiawindfarm.com.au/",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 14
@@ -175,7 +175,7 @@
       "id": "news-ambrosia",
       "name": "News: Ambrosia Wind Farm",
       "url": "https://news.google.com/rss/search?q=%22Ambrosia%20wind%20farm%22&hl=en-AU&gl=AU&ceid=AU:en",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 5
@@ -184,7 +184,7 @@
       "id": "news-west-arthur",
       "name": "News: West Arthur wind farms",
       "url": "https://news.google.com/rss/search?q=%22West%20Arthur%22%20wind%20farm&hl=en-AU&gl=AU&ceid=AU:en",
-      "checked": "2026-11-05T17:54:18+08:00",
+      "checked": "2026-11-05T17:55:59+08:00",
       "ok": true,
       "error": "",
       "matches": 10
