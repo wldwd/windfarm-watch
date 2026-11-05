@@ -1,0 +1,76 @@
+name: Check approvals and publish site
+
+on:
+  schedule:
+    # 06:17 and 17:17 Perth time (cron is in UTC)
+    - cron: "17 22 * * *"
+    - cron: "17 9 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: watch-and-publish
+  cancel-in-progress: false
+
+jobs:
+  check:
+    # Manual edits (push) just republish; scheduled and manual runs check the sources first.
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF reader
+        run: pip install pypdf
+
+      - name: Check sources
+        run: python watch/watch.py
+
+      - name: Save results
+        run: |
+          git config user.name "windfarm-watch"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Check $(TZ=Australia/Perth date '+%Y-%m-%d %H:%M')"
+          git push
+
+      - name: Open an issue if something new turned up
+        if: hashFiles('alert.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOTIFY: ${{ vars.NOTIFY_USERS }}
+        run: |
+          if [ -n "$NOTIFY" ]; then printf '\n%s\n' "$NOTIFY" >> alert.md; fi
+          gh issue create --title "$(cat alert_title.txt)" --body-file alert.md
+
+  publish:
+    needs: check
+    if: always() && (needs.check.result == 'success' || needs.check.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

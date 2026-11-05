@@ -1,0 +1,54 @@
+{
+  "_about": "Hand-edited project status and comment windows. The checker only updates last_checked and sources. Dates are YYYY-MM-DD.",
+  "status_as_at": "2026-11-05",
+  "last_checked": null,
+  "windows": [
+    {
+      "project": "West Arthur Wind Farm",
+      "stage": "EPA",
+      "title": "Comment on whether the EPA should assess the referral",
+      "opens": null,
+      "closes": "2026-11-01",
+      "url": "https://consultation.epa.wa.gov.au/",
+      "note": "Closed. The EPA now decides whether to assess, and that decision can't be appealed."
+    },
+    {
+      "project": "West Arthur Wind Farm",
+      "stage": "Planning",
+      "title": "DA public comment (Regional DAP, DAP/26/03197)",
+      "opens": null,
+      "closes": null,
+      "url": "https://www.westarthur.wa.gov.au/your-community/environment/renewable-energy-in-the-shire-of-west-arthur.aspx",
+      "note": "Expected. The Shire's wind farm policy requires at least 42 days of advertising and letters to nearby landowners. Dates not announced yet."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Ambrosia Wind Farm",
+      "who": "Green Wind Renewables / Aula Energy · about 600 MW, up to 100 turbines",
+      "rows": [
+        {"label": "EPA", "pill": "No referral found", "tone": "unknown", "text": ""},
+        {"label": "Planning", "pill": "Not lodged yet?", "tone": "unknown", "text": "The developer said it would lodge in late September 2026. It is not on the DAP list of 2 November. If lodged on or after 5 October it goes to the WAPC, and nearby owners get a letter."},
+        {"label": "Federal", "pill": "No referral found", "tone": "unknown", "text": ""}
+      ]
+    },
+    {
+      "name": "West Arthur Wind Farm",
+      "who": "Lacour Energy · up to 92 turbines, tip height up to 253 m, plus battery",
+      "rows": [
+        {"label": "EPA", "pill": "7-day comment closed 1 Nov", "tone": "done", "text": "EPA now decides whether to assess."},
+        {"label": "Planning", "pill": "DA lodged 18 Sep", "tone": "next", "text": "Regional DAP, DAP/26/03197, $2,000m. Advertising dates not yet listed."},
+        {"label": "Federal", "pill": "Not referred", "tone": "unknown", "text": "As at mid-October."}
+      ]
+    },
+    {
+      "name": "Bellwether",
+      "who": "ACCIONA Energía · about 3 GW, around 400 turbines",
+      "rows": [
+        {"label": "Status", "pill": "Planning phase", "tone": "next", "text": "Construction proposed from 2028."},
+        {"label": "Approvals", "pill": "None found", "tone": "unknown", "text": ""}
+      ]
+    }
+  ],
+  "sources": []
+}

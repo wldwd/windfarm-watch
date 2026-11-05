@@ -1,0 +1,99 @@
+{
+  "_about": "Pages the checker reads twice a day. 'match' lists the patterns that make a line worth reporting (case-insensitive regular expressions). 'also' (optional) means a line must ALSO contain one of these. Add or remove sources freely.",
+  "projects": {
+    "Ambrosia Wind Farm": ["ambrosia", "green\\s*wind", "aula energy", "moodiarrup"],
+    "West Arthur Wind Farm": ["west arthur wind", "lacour", "darkan"],
+    "Bellwether": ["bellwether", "acciona"]
+  },
+  "sources": [
+    {
+      "id": "epa-hub",
+      "name": "EPA Consultation Hub",
+      "kind": "epa",
+      "url": "https://consultation.epa.wa.gov.au/",
+      "type": "html",
+      "match": ["ambrosia", "green\\s*wind", "west arthur", "lacour", "bellwether", "acciona", "moodiarrup", "darkan", "kojonup", "wagin"],
+      "also": ["wind", "ambrosia", "bellwether", "lacour", "green"]
+    },
+    {
+      "id": "epa-notices",
+      "name": "EPA public notices",
+      "kind": "epa",
+      "url": "https://www.epa.wa.gov.au/public-notices",
+      "type": "html",
+      "match": ["ambrosia", "green\\s*wind", "west arthur", "lacour", "bellwether", "acciona", "moodiarrup", "darkan"]
+    },
+    {
+      "id": "dap-list",
+      "name": "DAP current applications (PDF)",
+      "kind": "planning",
+      "url": "https://www.planning.wa.gov.au/docs/default-source/daps-docs-website/current-applications.pdf",
+      "type": "pdf",
+      "match": ["west arthur", "ambrosia", "moodiarrup", "darkan", "green\\s*wind", "bellwether"]
+    },
+    {
+      "id": "wapc-sigdev",
+      "name": "WAPC significant development applications",
+      "kind": "planning",
+      "url": "https://www.planning.wa.gov.au/significant-development-pathway/significant-development-applications",
+      "type": "html",
+      "match": ["west arthur", "ambrosia", "moodiarrup", "darkan", "green\\s*wind", "bellwether", "wind farm", "wind energy"]
+    },
+    {
+      "id": "wapc-spc",
+      "name": "WAPC Statutory Planning Committee agendas",
+      "kind": "planning",
+      "url": "https://www.planning.wa.gov.au/wapc/wapc-and-statutory-committees-agendas-and-minutes/spc-agendas-and-minutes",
+      "type": "html",
+      "match": ["west arthur", "ambrosia", "moodiarrup", "darkan", "wind farm", "wind energy"]
+    },
+    {
+      "id": "shire-renewables",
+      "name": "Shire of West Arthur: Renewable energy",
+      "kind": "shire",
+      "url": "https://www.westarthur.wa.gov.au/your-community/environment/renewable-energy-in-the-shire-of-west-arthur.aspx",
+      "type": "html",
+      "match": ["wind", "ambrosia", "lacour", "bellwether", "development application", "submission", "public comment", "advertis"]
+    },
+    {
+      "id": "shire-windfarms",
+      "name": "Shire of West Arthur: Windfarms",
+      "kind": "shire",
+      "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
+      "type": "html",
+      "match": ["ambrosia", "lacour", "bellwether", "status", "development application", "submission", "public comment", "advertis"]
+    },
+    {
+      "id": "epbc-portal",
+      "name": "EPBC Act public portal (referrals)",
+      "kind": "federal",
+      "url": "https://epbcpublicportal.environment.gov.au/all-referrals",
+      "type": "html",
+      "match": ["ambrosia", "green\\s*wind", "west arthur", "lacour", "bellwether", "moodiarrup", "darkan"]
+    },
+    {
+      "id": "ambrosia-site",
+      "name": "Ambrosia Wind Farm website",
+      "kind": "developer",
+      "url": "https://ambrosiawindfarm.com.au/",
+      "type": "html",
+      "match": ["development application", "lodged", "submission", "public comment", "approval", "epa", "epbc", "referral", "news", "update"]
+    },
+    {
+      "id": "news-ambrosia",
+      "name": "News: Ambrosia Wind Farm",
+      "kind": "news",
+      "url": "https://news.google.com/rss/search?q=%22Ambrosia%20wind%20farm%22&hl=en-AU&gl=AU&ceid=AU:en",
+      "type": "rss",
+      "match": ["."]
+    },
+    {
+      "id": "news-west-arthur",
+      "name": "News: West Arthur wind farms",
+      "kind": "news",
+      "url": "https://news.google.com/rss/search?q=%22West%20Arthur%22%20wind%20farm&hl=en-AU&gl=AU&ceid=AU:en",
+      "type": "rss",
+      "match": ["."]
+    }
+  ]
+}

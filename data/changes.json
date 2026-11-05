@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-05T12:30:00+08:00",
+    "source": "DAP current applications (PDF)",
+    "source_id": "dap-list",
+    "url": "https://www.planning.wa.gov.au/docs/default-source/daps-docs-website/current-applications.pdf",
+    "project": "West Arthur Wind Farm",
+    "kind": "planning",
+    "text": "West Arthur Wind Farm DA is on the DAP current applications list: DAP/26/03197, Regional DAP, $2,000m, lodged 18 September 2026.",
+    "manual": true
+  },
+  {
+    "date": "2026-11-01T17:00:00+08:00",
+    "source": "EPA Consultation Hub",
+    "source_id": "epa-hub",
+    "url": "https://consultation.epa.wa.gov.au/",
+    "project": "West Arthur Wind Farm",
+    "kind": "epa",
+    "text": "7-day public comment on the West Arthur Wind Farm referral closed.",
+    "manual": true
+  },
+  {
+    "date": "2026-10-16T09:00:00+08:00",
+    "source": "RenewEconomy",
+    "source_id": "news",
+    "url": "https://reneweconomy.com.au/approval-sought-for-another-huge-wind-and-battery-hybrid-as-state-prepares-to-move-beyond-coal/",
+    "project": "West Arthur Wind Farm",
+    "kind": "news",
+    "text": "Approval sought for another huge wind and battery hybrid (West Arthur Wind Farm, up to 92 turbines).",
+    "manual": true
+  }
+]
