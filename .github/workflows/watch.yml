@@ -37,6 +37,9 @@ jobs:
       - name: Check sources
         run: python watch/watch.py
 
+      - name: Check Ambrosia map layout
+        run: python watch/layout_watch.py
+
       - name: Save results
         run: |
           git config user.name "windfarm-watch"
