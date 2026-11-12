@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Renewable energy",
+    "source_id": "shire-renewables",
+    "url": "https://www.westarthur.wa.gov.au/your-community/environment/renewable-energy-in-the-shire-of-west-arthur.aspx",
+    "project": "",
+    "kind": "shire",
+    "flag": true,
+    "text": "Development Applications",
+    "published": ""
+  },
+  {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Renewable energy",
+    "source_id": "shire-renewables",
+    "url": "https://www.planning.wa.gov.au/draft-renewable-energy-planning-code",
+    "project": "",
+    "kind": "shire",
+    "flag": true,
+    "text": "Draft Renewable Energy Planning Code - The Code is intended to guide the assessment of development applications for energy infrastructure – including renewable energy facilities, battery energy storage systems and transmission systems. It is currently in draft format.",
+    "published": ""
+  },
+  {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Renewable energy",
+    "source_id": "shire-renewables",
+    "url": "https://www.westarthur.wa.gov.au/documents/publications",
+    "project": "",
+    "kind": "shire",
+    "flag": false,
+    "text": "The Australian Energy Infrastructure Commissioner’s role is to receive and refer complaints from concerned community residents about wind farms, large-scale solar farms, energy storage facilities and new major transmission projects as well as promote best practices for industry and government to adopt in regard to the planning and operation of these projects. The AEIC website has many different re",
+    "published": ""
+  },
+  {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Renewable energy",
+    "source_id": "shire-renewables",
+    "url": "https://stateofenergy.wa.gov.au/docs/default-source/default-document-library/landowner-toolkit/toolkit_hosting-a-wind-farm-on-your-land_benefits-and-considerations.pdf?sfvrsn=25a58831_2",
+    "project": "",
+    "kind": "shire",
+    "flag": false,
+    "text": "Powering WA has developed a toolkit for landowners to assist them in making informed decisions about hosting a wind farm - Hosting a Windfarm on Your Land: Benefits and Considerations",
+    "published": ""
+  },
+  {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Renewable energy",
+    "source_id": "shire-renewables",
+    "url": "https://www.westarthur.wa.gov.au/library.aspx",
+    "project": "",
+    "kind": "shire",
+    "flag": false,
+    "text": "The book Wind Turbine Syndrome: A communicated disease by Simon Chapman and Fiona Crichton presents an evidence-based approach to wind farms. This book is available in the library of the West Arthur Community Resource Centre",
+    "published": ""
+  },
+  {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
+    "project": "",
+    "kind": "shire",
+    "flag": true,
+    "text": "Development Applications",
+    "published": ""
+  },
+  {
+    "date": "2026-11-13T01:39:15+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://www.planning.wa.gov.au/draft-renewable-energy-planning-code",
+    "project": "",
+    "kind": "shire",
+    "flag": true,
+    "text": "Draft Renewable Energy Planning Code - The Code is intended to guide the assessment of development applications for energy infrastructure – including renewable energy facilities, battery energy storage systems and transmission systems. It is currently in draft format.",
+    "published": ""
+  },
+  {
     "date": "2026-11-12T11:08:16+08:00",
     "source": "Shire of West Arthur: Renewable energy",
     "source_id": "shire-renewables",
