@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Renewable energy",
+    "source_id": "shire-renewables",
+    "url": "https://www.westarthur.wa.gov.au/your-community/environment/renewable-energy-in-the-shire-of-west-arthur.aspx",
+    "project": "Ambrosia Wind Farm",
+    "kind": "shire",
+    "text": "16 new mentions on this page. It may have been reorganised, or something significant was added. Worth a look."
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://www.westarthurwindfarm.com/",
+    "project": "West Arthur Wind Farm",
+    "kind": "shire",
+    "flag": true,
+    "text": "Status: Development Application has been submitted for assessment. The submitted documents can be viewed here (Approvals — West Arthur Wind Farm).",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://ambrosiawindfarm.com.au/",
+    "project": "Ambrosia Wind Farm",
+    "kind": "shire",
+    "flag": false,
+    "text": "Green Wind Renewables - Ambrosia Wind Farm",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
+    "project": "",
+    "kind": "shire",
+    "flag": false,
+    "text": "Status: Late development (2-5 years)",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://ambrosiawindfarm.com.au/",
+    "project": "Ambrosia Wind Farm",
+    "kind": "shire",
+    "flag": false,
+    "text": "Map: Ambrosia Wind Farm",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://ambrosiawindfarm.com.au/",
+    "project": "Ambrosia Wind Farm",
+    "kind": "shire",
+    "flag": false,
+    "text": "Grant programs: Community – Ambrosia Wind Farm",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://community.acciona.com.au/WA",
+    "project": "Bellwether",
+    "kind": "shire",
+    "flag": false,
+    "text": "Acciona Energía – Bellwether Wind Farm",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
+    "project": "",
+    "kind": "shire",
+    "flag": false,
+    "text": "Status: Planning and consultation with construction anticipated in 2029",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://hdp-au-prod-app-acciona-community-files.s3.ap-southeast-2.amazonaws.com/2617/6351/4346/Bellwether_Wind_Farm_-_Investigation_Area.pdf",
+    "project": "Bellwether",
+    "kind": "shire",
+    "flag": false,
+    "text": "Bellwether Wind Farm: Investigation Area",
+    "published": ""
+  },
+  {
+    "date": "2026-11-12T11:08:16+08:00",
+    "source": "Shire of West Arthur: Windfarms",
+    "source_id": "shire-windfarms",
+    "url": "https://westarthur.wa.gov.au/your-community/environment/windfarms-in-the-shire-of-west-arthur.aspx",
+    "project": "",
+    "kind": "shire",
+    "flag": true,
+    "text": "Status: Technical studies and planning approvals 2024 - 2030",
+    "published": ""
+  },
+  {
     "date": "2026-11-07T00:49:27+08:00",
     "source": "DAP current applications (PDF)",
     "source_id": "dap-list",
